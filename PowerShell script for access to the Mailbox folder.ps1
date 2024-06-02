@@ -4,6 +4,10 @@ $mailbox = "Itmolecules@education.com"
 $user = "student1@education.com"
 $accessRights = "Editor"
 
+#This script is used to share mailbox folder access with a user. 
+#I recommend downloading and saving this command to a location such as C:\Temp and running it from there. 
+#Please ensure to enter the variables: mailbox address and user you want to share the folder or calendar access with.
+
 # Connect to Exchange Online
 Import-Module ExchangeOnlineManagement
 $UserCredential = Get-Credential
